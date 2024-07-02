@@ -24,6 +24,7 @@ Survival analysis has emerged as a crucial statistical tool for analyzing time-t
 
 ### Sentiment Analysis of WhatsApp Chats
 [Code](https://github.com/sam-yak/Sentiment-Analysis/blob/main/sentimentanalysis.pdf)
+
 This project performs sentiment and emotion analysis on WhatsApp chat data, particularly focusing on Hinglish (Hindi words written using the English alphabet). The analysis includes mapping the sentiment and emotions over time, visualizing the results, and providing summary statistics. The goal is to understand the emotional dynamics and overall tone of the conversation.
 
 
