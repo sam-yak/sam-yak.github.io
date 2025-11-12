@@ -8,6 +8,21 @@ Beyond academics and professional pursuits, I have a vibrant life filled with di
 
 ## Projects
 
+### 2025
+[Repo](https://github.com/sam-yak/hELIOS)
+Helios implements a production-ready hybrid retrieval system for materials science applications, utilizing ensemble methods that weight semantic embeddings (all-MiniLM-L6-v2, 60%) with BM25 sparse retrieval (40%) to optimize recall across both conceptual and exact-match queries. The architecture employs ChromaDB for vector storage with rich metadata filtering capabilities, enabling self-query construction for property-based constraints. Built on LangChain's RAG primitives with OpenAI GPT-4 as the generation model, the system maintains conversational context through history-aware retrieval chains and achieves P95 latency under 3.5 seconds. The implementation includes comprehensive observability through LangSmith distributed tracing, automated evaluation suites measuring precision/recall/response time, and a FastAPI service layer with asynchronous request handling.
+
+Helios: AI-Powered Materials Selection Assistant
+Architecture: Hybrid RAG with ensemble retrieval (60% semantic / 40% keyword)
+Vector Store: ChromaDB with all-MiniLM-L6-v2 embeddings
+Keyword Search: BM25 with customizable weighting
+LLM: OpenAI GPT-4 with context-aware prompting
+Database: 72 materials, 27 categories, full property metadata
+Backend: FastAPI with async request handling
+Observability: LangSmith distributed tracing, structured logging
+Performance: 2.3s avg response time, 75%+ precision on evaluation suite
+Evaluation: Automated testing framework with precision/recall metrics
+Deployment: Docker-ready with environment-based configuration
 ### 2024
 
 ### Random Projection Ensemble Classification
