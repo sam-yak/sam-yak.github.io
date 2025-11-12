@@ -1,80 +1,74 @@
-# About Me
+# Hi, I'm Samyak Agarwal 👋
 
-I am Samyak Agarwal, with a Master's Degree in Data Science from Rutgers University, New Brunswick, I have had the privilege to work with distinguished professors and dive deep into the realms of data science, machine learning, and deep learning.
+I'm a Data Scientist with a Master's degree in Data Science from Rutgers University. I specialize in building and deploying machine learning models, engineering robust data pipelines, and optimizing cloud solutions.
 
-My professional experience includes roles such as Data Engineer Intern at Winlab, Data Scientist/ML Engineer at Career Plus Online, and Data Scientist at Birlasoft. I am skilled in Python, R, SQL, TensorFlow, and Azure, with expertise in creating ML models, developing data pipelines, and visualizing data, as well as optimizing cloud solutions. I have a proven track record of boosting predictive accuracy, enhancing user experiences, and improving data processes. My coursework has covered subjects like Probability Distributions, Statistical Inference, Data Wrangling, Linear Regression, and Time Series Analysis. I am currently expanding my knowledge in data science, machine learning, and statistical modeling, with plans to further specialize by taking courses in Deep Learning and Natural Language Processing.
+My experience spans data engineering, machine learning, and statistical analysis, with a proven track record of:
+* Boosting predictive accuracy for complex models.
+* Enhancing user experiences through data-driven insights.
+* Optimizing and streamlining data processes.
 
-Beyond academics and professional pursuits, I have a vibrant life filled with diverse interests. In my free time, I love to make music with my band, where I am the singer, vibing on indie and hip-hop tunes. I'm also an avid Rubik's cube enthusiast, capable of solving various types, including 2x2, 3x3, 4x4, 5x5, triangle, and magic cubes, with my best time for solving the 3x3 being an impressive 12 seconds. Additionally, I am passionate about financial markets, particularly the Futures and Options (FnO) segment. I enjoy scalping far options and occasionally take calculated risks with option buying based on significant market divergences, news, or major events.
+---
 
-## Projects
+## 💻 Core Competencies
 
-### 2025
-[Repo](https://github.com/sam-yak/hELIOS)
-Helios implements a production-ready hybrid retrieval system for materials science applications, utilizing ensemble methods that weight semantic embeddings (all-MiniLM-L6-v2, 60%) with BM25 sparse retrieval (40%) to optimize recall across both conceptual and exact-match queries. The architecture employs ChromaDB for vector storage with rich metadata filtering capabilities, enabling self-query construction for property-based constraints. Built on LangChain's RAG primitives with OpenAI GPT-4 as the generation model, the system maintains conversational context through history-aware retrieval chains and achieves P95 latency under 3.5 seconds. The implementation includes comprehensive observability through LangSmith distributed tracing, automated evaluation suites measuring precision/recall/response time, and a FastAPI service layer with asynchronous request handling.
+* **Programming:** Python, R, SQL
+* **ML / Deep Learning:** TensorFlow, PyTorch, Scikit-learn, LangChain
+* **Data Tech:** Pandas, NumPy, SciPy, Spark, Data Wrangling, Data Visualization
+* **Cloud / Tools:** Microsoft Azure, Docker, FastAPI, Git, ChromaDB
+* **Statistics:** Probability, Statistical Inference, Linear Regression, Time Series Analysis
 
-Helios: AI-Powered Materials Selection Assistant
-Architecture: Hybrid RAG with ensemble retrieval (60% semantic / 40% keyword)
-Vector Store: ChromaDB with all-MiniLM-L6-v2 embeddings
-Keyword Search: BM25 with customizable weighting
-LLM: OpenAI GPT-4 with context-aware prompting
-Database: 72 materials, 27 categories, full property metadata
-Backend: FastAPI with async request handling
-Observability: LangSmith distributed tracing, structured logging
-Performance: 2.3s avg response time, 75%+ precision on evaluation suite
-Evaluation: Automated testing framework with precision/recall metrics
-Deployment: Docker-ready with environment-based configuration
-### 2024
+---
 
-### Random Projection Ensemble Classification
-[Code](https://github.com/sam-yak/Random-Projection-Ensemble-Classification/blob/main/DATA_MINING_CODE_UPDATED.ipynb)
+## 🚀 Featured Projects
 
-Cardiac arrhythmias, manifesting as irregular heart rhythms, present substantial diagnostic challenges exacerbated by the complexity and high dimensionality of electrocardiogram (ECG) data. Conventional classification methods frequently fall short in precision, struggling with the nuanced ECG patterns. This study harnesses the random-projection ensemble classification technique, originally innovated by Timothy I. Cannings and Richard J. Samworth, to enhance the accuracy of diagnosing cardiac arrhythmia. By utilizing data from the UCI Machine Learning Repository, our approach projects the high-dimensional ECG data into a lower-dimensional space. This method effectively reduces the curse of dimensionality and uncovers underlying structures that are conducive to more accurate classifications, offering a promising advancement in medical diagnostics.
+I've selected a few projects that showcase my skills in MLOps, RAG, and classical machine learning.
 
+### 1. Helios: AI-Powered Materials Selection Assistant
+[Repo Link](https://github.com/sam-yak/hELIOS)
 
-### Survival-Analysis-Employee-Retention
-[Code](https://github.com/sam-yak/Survival-Analysis-Employee-Retention/blob/main/Survival_analysis_final.ipynb)
+A production-ready hybrid retrieval (RAG) system for materials science. It uses an ensemble retriever (semantic + keyword) to answer complex queries about material properties, maintaining conversational context and ensuring low-latency responses.
 
-Survival analysis has emerged as a crucial statistical tool for analyzing time-to-event data, providing insights into the longevity and retention patterns across various domains, including employee attrition. This project employs survival analysis to investigate the duration employees remain with a company before potentially exiting, utilizing the Kaplan-Meier Fitter and Cox Proportional Hazards Model. By analyzing a comprehensive dataset with multiple covariates, we identify key periods and factors that influence employee tenure. The survival functions were calculated for different demographic and job-related variables, such as job involvement and work-life balance, to assess their impact on retention. The study highlights how variations in these factors correlate with significant differences in attrition rates, offering strategic insights for human resources to enhance employee retention and satisfaction. Overall, this project demonstrates the power of survival analysis in providing actionable insights into employee retention strategies and the dynamics of workforce stability.
+* **Key Features:** Hybrid RAG (60% semantic / 40% keyword), history-aware retrieval, self-querying.
+* **Tech Stack:** LangChain, OpenAI GPT-4, ChromaDB, FastAPI, BM25, `all-MiniLM-L6-v2`.
+* **Observability:** Full integration with LangSmith for distributed tracing and evaluation.
 
+### 2. 🥈 2nd Place: 2023 Travelers Analytics Case Competition
+[Code Link](https://github.com/sam-yak/2023-Travelers-Analytics-Case-Competition/blob/main/2023%20Travelers%20Analytics%20(2).ipynb)
 
-### Sentiment Analysis of WhatsApp Chats
-[Code](https://github.com/sam-yak/Sentiment-Analysis/blob/main/sentimentanalysis.pdf)
+Achieved 2nd place among six US universities in a predictive modeling competition. We developed a high-performing model (Gini coefficient: 0.18195) to predict customer behavior for InsNova Auto Insurance.
 
-This project performs sentiment and emotion analysis on WhatsApp chat data, particularly focusing on Hinglish (Hindi words written using the English alphabet). The analysis includes mapping the sentiment and emotions over time, visualizing the results, and providing summary statistics. The goal is to understand the emotional dynamics and overall tone of the conversation.
+* **Key Features:** Binary classification, customer segmentation, and robust cross-validation.
+* **Tech Stack:** XGBoost, Random Forest, Logistic Regression, K-Means Clustering.
 
+### 3. Survival Analysis for Employee Retention
+[Code Link](https://github.com/sam-yak/Survival-Analysis-Employee-Retention/blob/main/Survival_analysis_final.ipynb)
 
-### 2023
+Investigated employee attrition by applying survival analysis to identify key factors influencing tenure. This model helps pinpoint when and why employees are most likely to leave, providing actionable insights for HR.
 
-### Neural-Network-project- on Spotify data - Comparing the different levels of track popularity of 'pop' and 'rap' genres.
-[Code](https://github.com/sam-yak/Neural-Network-project/blob/main/Neural-network-project.ipynb)
+* **Key Features:** Time-to-event analysis, covariate impact assessment.
+* **Tech Stack:** Kaplan-Meier Fitter, Cox Proportional Hazards Model.
 
-In this project, I have completed key analyses including neural network training with performance monitoring through loss plots, prediction interval calculation using conformal inference, and a carefully chosen hypothesis test.
-Neural Network Training: We trained a neural network on the provided dataset. The training process was monitored and optimized by plotting the loss against each training iteration. This plot is included in the notebook, illustrating how the model's performance improved over time.
-Prediction Interval Using Conformal Inference: We calculated a prediction interval using conformal inference. The results are accompanied by a detailed explanation, elucidating how this approach provides a statistical basis for the reliability of the predictions made by our model.
-Hypothesis Testing: A specific hypothesis test was conducted, chosen based on the characteristics of our dataset and the objectives of our analysis. The notebook includes a comprehensive explanation of why this particular test was selected and an interpretation of the test results, providing insights into the statistical significance and implications of our findings.
-In conclusion the 'pop' and 'rap' genres have significantly different levels of track popularity. This finding could be useful for various purposes, such as marketing strategies, playlist curation, or further analysis on what drives popularity differences between genres.
+### 4. Random Projection Ensemble Classification for ECG Data
+[Code Link](https://github.com/sam-yak/Random-Projection-Ensemble-Classification/blob/main/DATA_MINING_CODE_UPDATED.ipynb)
 
-### Green Horizons: Advancing Crop Yield Predictions through Environmental Data Analytics
-[Code](https://github.com/sam-yak/Crop-Yield-Predictions/blob/main/Time_Series_Regression_Project_final%20(1).ipynb)
+Enhanced the accuracy of cardiac arrhythmia diagnosis by applying a novel random-projection ensemble technique to high-dimensional ECG data, overcoming the "curse of dimensionality" that hinders traditional methods.
 
-In our ambitious project, we aim to harness the potential of advanced machine learning techniques, primarily using Python, to predict agricultural crop yields. This task is more than just a technical challenge; it represents a significant step towards ensuring global food security and adapting agricultural practices to the challenges posed by climate change. Our approach involves a detailed analysis of various environmental factors such as weather patterns, soil conditions, and historical crop yield data, as well as the application and effectiveness of pesticides. By meticulously processing this data through sophisticated machine learning algorithms, our goal is to develop a robust predictive model. This model is not just a tool for theoretical analysis but a practical solution to aid farmers and policymakers in making informed decisions. Through our work, we envision contributing significantly to the optimization of crop yields, promoting sustainable farming methods, and ultimately assisting in the battle against food scarcity in the face of changing global climates.
+* **Key Features:** Dimensionality reduction, ensemble learning, medical diagnostics.
+* **Tech Stack:** Python, Scikit-learn, UCI ML Repository.
 
-### 2022
+---
 
-### Covid-Trend-Analysis-and-Prediction
-[Code](https://github.com/sam-yak/Covid-Trend-Analysis-and-Prediction/blob/main/Final_Project.ipynb)
+## 📖 Other Notable Projects
 
-This project,"Corona Data Visualization," focuses on analyzing and visualizing COVID-19 data. The primary objectives include processing the data, plotting total cases versus total recovered for India and the USA, comparing death statistics, and forecasting future cases in India. The methodology involves importing and cleaning the OWID COVID dataset, selecting relevant columns, handling missing values, and filtering the data to focus on specific countries. Visualizations are created using Matplotlib and Plotly to highlight the comparisons between total cases, recoveries, and deaths. Additionally, forecasting models are applied to predict future COVID-19 case trends in India. This comprehensive approach provides valuable insights into the pandemic's impact and helps in understanding potential future scenarios.
+* **[Sentiment Analysis of WhatsApp Chats](https://github.com/sam-yak/Sentiment-Analysis/blob/main/sentimentanalysis.pdf):** Performed sentiment and emotion analysis on *Hinglish* (Hindi + English) chat data to map emotional dynamics over time.
+* **[Neural Networks on Spotify Data](https://github.com/sam-yak/Neural-Network-project/blob/main/Neural-network-project.ipynb):** Compared track popularity between 'pop' and 'rap' genres using neural networks and calculated prediction intervals with conformal inference.
+* **[Green Horizons: Crop Yield Predictions](https://github.com/sam-yak/Crop-Yield-Predictions/blob/main/Time_Series_Regression_Project_final%20(1).ipynb):** Developed a time-series model to predict agricultural crop yields using environmental factors (weather, soil, pesticides).
+* **[Covid-Trend-Analysis-and-Prediction](https://github.com/sam-yak/Covid-Trend-Analysis-and-Prediction/blob/main/Final_Project.ipynb):** Analyzed and forecasted COVID-19 case trends for India and the USA using time-series forecasting models and data visualization.
 
-### Image Data Gathering and Preprocessing Project
-[Code](https://github.com/sam-yak/Mini-Project/blob/main/Minor_Project.ipynb)
+---
 
-This project involves gathering and preprocessing image data using the Bing Image Downloader. The primary steps include downloading images of specific categories (e.g., sunflowers, rugby balls, ice cream cones), and then preprocessing these images by resizing and flattening them. The data preprocessing includes normalization to prepare the images for further analysis or machine learning tasks. This project demonstrates the entire workflow from data acquisition to preprocessing, setting the stage for more advanced image classification or analysis projects.
+## ⚡ About Me
 
-## Challenges
-
-### 2023-Travelers-Analytics-Case-Competition
-[Code](https://github.com/sam-yak/2023-Travelers-Analytics-Case-Competition/blob/main/2023%20Travelers%20Analytics%20(2).ipynb)
-
-In the 2023 Travelers Analytics Case Competition, organized by InsNova Auto Insurance Company, We developed a top-ranking predictive model using XGBoost, Random Forest, and logistic regression, securing 2nd place among six participating US universities. Our model achieved a Gini coefficient of 0.18195 through precise binary classification, leveraging logistic regression. Additionally, I utilized unsupervised learning techniques, such as k-means clustering, for effective customer segmentation and market analysis, driving targeted product offerings and pricing strategies. To enhance model robustness across datasets, I applied cross-validation, regularization, and regression techniques, minimizing overfitting risks.
-
+* 🎓 **Education:** MS in Data Science from Rutgers University, New Brunswick.
+* 🌱 **Learning:** Currently diving deeper into Deep Learning and Natural Language Processing.
+* 🎸 **Hobbies:** When I'm not coding, I'm the singer in my indie/hip-hop band, solving Rubik's cubes (my 3x3 record is 12s!), or analyzing financial markets (FnO).
