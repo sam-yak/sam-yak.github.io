@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samyak Agarwal | AI Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0B1120; color: #F8FAFC; }
+        .glass { background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .gradient-text { background: linear-gradient(to right, #38BDF8, #818CF8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="antialiased selection:bg-indigo-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 glass border-b-0">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-tight">SA.</a>
+            <div class="space-x-6 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#skills" class="hover:text-white transition">Skills</a>
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-40 pb-20 px-6 max-w-5xl mx-auto flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6">
+            <h1 class="text-5xl md:text-6xl font-bold leading-tight">
+                Hi, I'm <span class="gradient-text">Samyak</span> 👋
+            </h1>
+            <h2 class="text-2xl font-medium text-slate-400">AI Engineer & Data Scientist</h2>
+            <p class="text-lg text-slate-300 leading-relaxed max-w-2xl">
+                I specialize in building autonomous multi-agent systems, full-stack LLM applications, and robust data pipelines. With an MS in Data Science from Rutgers University, I bridge the gap between complex machine learning architecture and intuitive, production-ready user experiences.
+            </p>
+            <div class="flex gap-4 pt-4">
+                <a href="https://github.com/sam-yak" target="_blank" class="glass px-6 py-3 rounded-lg hover:bg-slate-800 transition flex items-center gap-2">
+                    <i class="fab fa-github text-xl"></i> GitHub
+                </a>
+                <a href="https://linkedin.com/in/sam-agarwal-ai/" target="_blank" class="bg-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-700 transition font-medium flex items-center gap-2">
+                    <i class="fab fa-linkedin text-xl"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+        <div class="w-48 h-48 md:w-64 md:h-64 shrink-0 rounded-full overflow-hidden border-4 border-slate-800 shadow-2xl">
+            <img src="img/cropped_circle_image.png" alt="Samyak Agarwal" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 px-6 max-w-5xl mx-auto">
+        <h3 class="text-3xl font-bold mb-10 flex items-center gap-3"><i class="fas fa-code text-indigo-400"></i> Core Competencies</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="glass p-6 rounded-xl">
+                <h4 class="text-lg font-semibold text-white mb-4">AI & Machine Learning</h4>
+                <p class="text-slate-400 leading-relaxed">Large Language Models (LLMs), Multi-Agent Systems, RAG, Prompt Engineering, LangChain, TensorFlow, PyTorch, Scikit-learn</p>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h4 class="text-lg font-semibold text-white mb-4">Full-Stack & Cloud</h4>
+                <p class="text-slate-400 leading-relaxed">Next.js, FastAPI, Node.js, Microsoft Azure, Docker, Vercel, Supabase, Git</p>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h4 class="text-lg font-semibold text-white mb-4">Programming</h4>
+                <p class="text-slate-400 leading-relaxed">Python, TypeScript, JavaScript, R, SQL</p>
+            </div>
+            <div class="glass p-6 rounded-xl">
+                <h4 class="text-lg font-semibold text-white mb-4">Data Tech & Databases</h4>
+                <p class="text-slate-400 leading-relaxed">ChromaDB, PostgreSQL, Pandas, NumPy, D3.js, Data Wrangling, Data Visualization</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+        <h3 class="text-3xl font-bold mb-10 flex items-center gap-3"><i class="fas fa-rocket text-indigo-400"></i> Featured Projects</h3>
+        
+        <div class="space-y-8">
+            <div class="glass p-8 rounded-2xl flex flex-col md:flex-row gap-8 items-start border border-slate-700 hover:border-indigo-500 transition duration-300">
+                <div class="flex-1 space-y-4">
+                    <div class="flex flex-wrap items-center gap-4 justify-between">
+                        <h4 class="text-2xl font-bold">DataWeave AI</h4>
+                        <div class="flex gap-3">
+                            <a href="https://dataweaveai.co" target="_blank" class="text-sm bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full hover:bg-indigo-500/30 transition">Live Demo <i class="fas fa-external-link-alt ml-1 text-xs"></i></a>
+                            <a href="https://github.com/sam-yak/dataweave-ai" target="_blank" class="text-sm bg-slate-800 text-slate-300 px-3 py-1 rounded-full hover:bg-slate-700 transition">GitHub <i class="fab fa-github ml-1"></i></a>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-sm font-medium">Multi-Agent Data Transformation Platform</p>
+                    <p class="text-slate-300 leading-relaxed">A full-stack, multi-agent AI platform that transforms messy, inconsistent data files into clean, schema-compliant datasets in under 60 seconds. Utilizes a human-in-the-loop review process and a custom pattern-learning engine to drastically reduce AI token costs over time.</p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Python</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">FastAPI</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Next.js</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Claude 3.5 Sonnet</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-2xl flex flex-col md:flex-row gap-8 items-start border border-slate-700 hover:border-indigo-500 transition duration-300">
+                <div class="flex-1 space-y-4">
+                    <div class="flex flex-wrap items-center gap-4 justify-between">
+                        <h4 class="text-2xl font-bold">Nexus</h4>
+                        <div class="flex gap-3">
+                            <a href="https://nexusai-research.vercel.app/" target="_blank" class="text-sm bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full hover:bg-indigo-500/30 transition">Live Demo <i class="fas fa-external-link-alt ml-1 text-xs"></i></a>
+                            <a href="https://github.com/sam-yak/nexus" target="_blank" class="text-sm bg-slate-800 text-slate-300 px-3 py-1 rounded-full hover:bg-slate-700 transition">GitHub <i class="fab fa-github ml-1"></i></a>
+                        </div>
+                    </div>
+                    <p class="text-slate-400 text-sm font-medium">Multi-Hop Research Engine with Live Knowledge Graph</p>
+                    <p class="text-slate-300 leading-relaxed">An autonomous research agent that decomposes complex questions into parallel sub-queries, executes multi-hop web searches, and synthesizes answers in real-time. Features a dynamic, force-directed D3.js knowledge graph that maps out extracted entities.</p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">TypeScript</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Next.js 14</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Claude Sonnet 4</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">D3.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-2xl flex flex-col md:flex-row gap-8 items-start border border-slate-700 hover:border-indigo-500 transition duration-300">
+                <div class="flex-1 space-y-4">
+                    <div class="flex flex-wrap items-center gap-4 justify-between">
+                        <h4 class="text-2xl font-bold">Helios</h4>
+                        <a href="https://github.com/sam-yak/hELIOS" target="_blank" class="text-sm bg-slate-800 text-slate-300 px-3 py-1 rounded-full hover:bg-slate-700 transition">GitHub <i class="fab fa-github ml-1"></i></a>
+                    </div>
+                    <p class="text-slate-400 text-sm font-medium">AI-Powered Materials Selection Assistant</p>
+                    <p class="text-slate-300 leading-relaxed">A production-ready hybrid retrieval (RAG) system for materials science. Uses an ensemble retriever (semantic + keyword) to answer complex queries about material properties, maintaining conversational context and ensuring low-latency responses.</p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">LangChain</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">OpenAI GPT-4</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">ChromaDB</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">FastAPI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="glass p-8 rounded-2xl flex flex-col md:flex-row gap-8 items-start border border-slate-700 hover:border-indigo-500 transition duration-300">
+                <div class="flex-1 space-y-4">
+                    <div class="flex flex-wrap items-center gap-4 justify-between">
+                        <h4 class="text-2xl font-bold flex items-center gap-2">🥈 2023 Travelers Analytics Case Competition</h4>
+                        <a href="https://github.com/sam-yak/2023-Travelers-Analytics-Case-Competition/blob/main/2023%20Travelers%20Analytics%20(2).ipynb" target="_blank" class="text-sm bg-slate-800 text-slate-300 px-3 py-1 rounded-full hover:bg-slate-700 transition">Code <i class="fas fa-code ml-1"></i></a>
+                    </div>
+                    <p class="text-slate-400 text-sm font-medium">2nd Place Winner</p>
+                    <p class="text-slate-300 leading-relaxed">Achieved 2nd place among six US universities in a predictive modeling competition. Developed a high-performing model (Gini coefficient: 0.18195) to predict customer behavior for InsNova Auto Insurance.</p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">XGBoost</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Random Forest</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">Logistic Regression</span>
+                        <span class="text-xs font-semibold bg-slate-800 px-2 py-1 rounded text-slate-300">K-Means</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-10 px-6 max-w-5xl mx-auto border-t border-slate-800">
+        <h3 class="text-2xl font-bold mb-6">Other Notable Projects</h3>
+        <ul class="space-y-3 text-slate-400">
+            <li><span class="text-indigo-400 mr-2">▹</span> <a href="https://github.com/sam-yak/Survival-Analysis-Employee-Retention/blob/main/Survival_analysis_final.ipynb" class="text-white hover:text-indigo-300 transition" target="_blank">Survival Analysis for Employee Retention</a> — Investigated employee attrition by applying survival analysis to identify key factors influencing tenure.</li>
+            <li><span class="text-indigo-400 mr-2">▹</span> <a href="https://github.com/sam-yak/Random-Projection-Ensemble-Classification/blob/main/DATA_MINING_CODE_UPDATED.ipynb" class="text-white hover:text-indigo-300 transition" target="_blank">Random Projection Ensemble for ECG Data</a> — Enhanced diagnostic accuracy by applying random-projection ensemble techniques to high-dimensional medical data.</li>
+            <li><span class="text-indigo-400 mr-2">▹</span> <a href="https://github.com/sam-yak/Sentiment-Analysis/blob/main/sentimentanalysis.pdf" class="text-white hover:text-indigo-300 transition" target="_blank">WhatsApp Chat Sentiment Analysis</a> — Performed sentiment and emotion analysis on Hinglish chat data to map emotional dynamics.</li>
+            <li><span class="text-indigo-400 mr-2">▹</span> <a href="https://github.com/sam-yak/Neural-Network-project/blob/main/Neural-network-project.ipynb" class="text-white hover:text-indigo-300 transition" target="_blank">Neural Networks on Spotify Data</a> — Compared track popularity between genres using NNs and conformal inference prediction intervals.</li>
+        </ul>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 text-sm mt-10 border-t border-slate-800">
+        <p>&copy; 2026 Samyak Agarwal. All rights reserved.</p>
+        <p class="mt-2 text-xs">When I'm not coding, I'm singing in my indie/hip-hop band, solving Rubik's cubes, or analyzing financial markets.</p>
+    </footer>
+
+</body>
+</html>
